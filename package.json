@@ -1,0 +1,44 @@
+{
+  "name": "htmx-snippets",
+  "displayName": "HTMX Snippets",
+  "description": "Snippets for VSCode, enabling your HTMX workflow",
+  "type": "module",
+  "version": "0.0.1",
+  "publisher": "Craig R Broughton",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CRBroughton/htmx-snippets.git"
+  },
+  "scripts": {
+    "build": "vsce package -o htmx-snippets-$npm_package_version.vsix",
+    "install": "npm run build && code --install-extension htmx-snippets-$npm_package_version.vsix"
+  },
+  "keywords": [
+    "HTMX",
+    "Snippets",
+    "Tags"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/htmx-jsx.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^3.11.11"
+  }
+}

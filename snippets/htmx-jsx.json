@@ -1,0 +1,47 @@
+{
+    "htmx-get": {
+      "prefix": "h-get",
+      "body": [
+        "hx-get={$01}"
+      ],
+      "description": [
+        "Issues a `GET` to the specified URL\n",
+        "https://htmx.org/attributes/hx-get\n",
+        "type: string?"
+      ]
+    },
+    "htmx-trigger": {
+      "prefix": "h-trigger",
+      "body": [
+        "hx-trigger=\"$0\""
+      ],
+      "description": [
+        "Specifies the event that triggers the request.\n",
+        "https://htmx.org/attributes/hx-trigger\n",
+        "type: string"
+      ]
+    },
+    "htmx-target": {
+      "prefix": "h-target",
+      "body": [
+        "hx-target=\"$0\""
+      ],
+      "description": [
+        "Specifies the target element to be swapped.\n",
+        "https://htmx.org/attributes/hx-target/\n",
+        "type: string"
+      ]
+    },
+    "htmx-swap": {
+      "prefix": "h-swap",
+      "body": [
+        "hx-swap=\"$0\""
+      ],
+      "description": [
+        "Controls how content is swapped in (outerHTML, beforeend, afterend, etc).\n",
+        "https://htmx.org/attributes/hx-swap/\n",
+        "type: string"
+      ]
+    }
+  }
+  
