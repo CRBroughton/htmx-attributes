@@ -28,7 +28,7 @@
     "snippets": [
       {
         "language": "typescriptreact",
-        "path": "./snippets/htmx-jsx.json"
+        "path": "./snippets/htmx-core-jsx.json"
       }
     ]
   },
