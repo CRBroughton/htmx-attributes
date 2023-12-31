@@ -3,7 +3,7 @@
   "displayName": "HTMX Attributes",
   "description": "HTMX attribute support for VSCode, enabling your HTMX workflow",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "CraigRBroughton",
   "engines": {
     "vscode": "^1.22.0"
@@ -21,6 +21,9 @@
   },
   "keywords": [
     "HTMX",
+    "HTML",
+    "Go",
+    "JSX",
     "Snippets",
     "Attributes",
     "Tags"
@@ -45,6 +48,14 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/htmx-add-jsx.json"
+      },
+      {
+        "language": "templ",
+        "path": "./snippets/htmx-core-templ.json"
+      },
+      {
+        "language": "templ",
+        "path": "./snippets/htmx-add-templ.json"
       }
     ]
   },

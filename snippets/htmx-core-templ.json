@@ -1,0 +1,114 @@
+{
+  "hx-boost": {
+    "prefix": "hx-boost",
+    "body": [
+      "hx-boost=\"true\""
+    ],
+    "description": [
+      "add or remove progressive enhancement for links and forms\n",
+      "https://htmx.org/attributes/hx-boost/"
+    ]
+  },
+  "hx-get": {
+    "prefix": "hx-get",
+    "body": [
+      "hx-get=\"$01\""
+    ],
+    "description": [
+      "Issues a `GET` to the specified URL\n",
+      "https://htmx.org/attributes/hx-get\n",
+      "type: string?"
+    ]
+  },
+  "hx-post": {
+    "prefix": "hx-post",
+    "body": [
+      "hx-post=\"$01\""
+    ],
+    "description": [
+      "issues a POST to the specified URL\n",
+      "https://htmx.org/attributes/hx-post/\n",
+      "type: string?"
+    ]
+  },
+  "hx-on": {
+    "prefix": "hx-on",
+    "body": [
+      "hx-on:$01"
+    ],
+    "description": [
+      "handle events with a inline scripts on elements\n",
+      "https://htmx.org/attributes/hx-on/"
+    ]
+  },
+  "hx-push-url": {
+    "prefix": "hx-push-url",
+    "body": [
+      "hx-push-url=\"true\""
+    ],
+    "description": [
+      "pushes the URL into the browser location bar, creating a new history entry\n",
+      "https://htmx.org/attributes/hx-push-url"
+    ]
+  },
+  "hx-select": {
+    "prefix": "hx-select",
+    "body": [
+      "hx-select=\"${01}\""
+    ],
+    "description": [
+      "select content to swap in from a response\n",
+      "https://htmx.org/attributes/hx-select/"
+    ]
+  },
+  "hx-select-oob": {
+    "prefix": "hx-select-oob",
+    "body": [
+      "hx-select-oob=\"${01}\""
+    ],
+    "description": [
+      "select content to swap in from a response, out of band (somewhere other than the target)\n",
+      "https://htmx.org/attributes/hx-select-oob/"
+    ]
+  },
+  "hx-swap": {
+    "prefix": "hx-swap",
+    "body": [
+      "hx-swap=\"${01}\""
+    ],
+    "description": [
+      "controls how content is swapped in (outerHTML, beforeend, afterend, …)\n",
+      "https://htmx.org/attributes/hx-swap/"
+    ]
+  },
+  "hx-target": {
+    "prefix": "hx-target",
+    "body": [
+      "hx-target=\"${01}\""
+    ],
+    "description": [
+      "specifies the target element to be swapped\n",
+      "https://htmx.org/attributes/hx-target/"
+    ]
+  },
+  "hx-trigger": {
+    "prefix": "hx-trigger",
+    "body": [
+      "hx-trigger=\"${01}\""
+    ],
+    "description": [
+      "specifies the event that triggers the request\n",
+      "https://htmx.org/attributes/hx-trigger/"
+    ]
+  },
+  "hx-vals": {
+    "prefix": "hx-vals",
+    "body": [
+      "hx-vals='{\"myVal${01}\": \"My Value\"}'"
+    ],
+    "description": [
+      "adds values to the parameters to submit with the request (JSON-formatted)\n",
+      "https://htmx.org/attributes/hx-vals/"
+    ]
+  }
+}
