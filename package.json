@@ -4,7 +4,7 @@
   "description": "HTMX attribute support for VSCode, enabling your HTMX workflow",
   "type": "module",
   "version": "0.0.1",
-  "publisher": "Craig R Broughton",
+  "publisher": "CraigRBroughton",
   "engines": {
     "vscode": "^1.22.0"
   },
