@@ -29,6 +29,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/htmx-core-jsx.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/htmx-add-jsx.json"
       }
     ]
   },

@@ -1,0 +1,212 @@
+{
+  "hx-confirm": {
+    "prefix": "hx-confirm",
+    "body": [
+      "hx-confirm=\"${01}\""
+    ],
+    "description": [
+      "shows a confirm() dialog before issuing a request\n",
+      "https://htmx.org/attributes/hx-confirm/"
+    ]
+  },
+  "hx-delete": {
+    "prefix": "hx-delete",
+    "body": [
+      "hx-delete=\"${01}\""
+    ],
+    "description": [
+      "issues a DELETE to the specified URL\n",
+      "https://htmx.org/attributes/hx-delete/"
+    ]
+  },
+  "hx-disable": {
+    "prefix": "hx-disable",
+    "body": [
+      "hx-disable"
+    ],
+    "description": [
+      "disables htmx processing for the given node and any children nodes\n",
+      "https://htmx.org/attributes/hx-disable/"
+    ]
+  },
+  "hx-disable-elt": {
+    "prefix": "hx-disable-elt",
+    "body": [
+      "hx-disable-elt=\"this\""
+    ],
+    "description": [
+      "adds the disabled attribute to the specified elements while a request is in flight\n",
+      "https://htmx.org/attributes/hx-disabled-elt/"
+    ]
+  },
+  "hx-disinherit": {
+    "prefix": "hx-disinherit",
+    "body": [
+      "hx-disinherit=\"*\""
+    ],
+    "description": [
+      "control and disable automatic attribute inheritance for child nodes\n",
+      "https://htmx.org/attributes/hx-disinherit/"
+    ]
+  },
+  "hx-encoding": {
+    "prefix": "hx-encoding",
+    "body": [
+      "hx-encoding"
+    ],
+    "description": [
+      "changes the request encoding type\n",
+      "https://htmx.org/attributes/hx-encoding/"
+    ]
+  },
+  "hx-ext": {
+    "prefix": "hx-ext",
+    "body": [
+      "hx-ext=\"${01}\""
+    ],
+    "description": [
+      "extensions to use for this element\n",
+      "https://htmx.org/attributes/hx-ext/"
+    ]
+  },
+  "hx-headers": {
+    "prefix": "hx-headers",
+    "body": [
+      "hx-headers='{\"myHeader${01}\": \"My Value\"}'"
+    ],
+    "description": [
+      "adds to the headers that will be submitted with the request\n",
+      "https://htmx.org/attributes/hx-headers/"
+    ]
+  },
+  "hx-history": {
+    "prefix": "hx-history",
+    "body": [
+      "hx-history=\"false\""
+    ],
+    "description": [
+      "prevent sensitive data being saved to the history cache\n",
+      "https://htmx.org/attributes/hx-history/"
+    ]
+  },
+  "hx-history-elt": {
+    "prefix": "hx-history-elt",
+    "body": [
+      "hx-history-elt"
+    ],
+    "description": [
+      "the element to snapshot and restore during history navigation\n",
+      "https://htmx.org/attributes/hx-history-elt/"
+    ]
+  },
+  "hx-include": {
+    "prefix": "hx-include",
+    "body": [
+      "hx-include=\"[name='email']\""
+    ],
+    "description": [
+      "include additional data in requests\n",
+      "https://htmx.org/attributes/hx-include/"
+    ]
+  },
+  "hx-indicator": {
+    "prefix": "hx-indicator",
+    "body": [
+      "hx-indicator=\"${01}\""
+    ],
+    "description": [
+      "the element to put the htmx-request class on during the request\n",
+      "https://htmx.org/attributes/hx-indicator/"
+    ]
+  },
+  "hx-params": {
+    "prefix": "hx-params",
+    "body": [
+      "hx-params=\"*${01}\""
+    ],
+    "description": [
+      "filters the parameters that will be submitted with a request\n",
+      "https://htmx.org/attributes/hx-params/"
+    ]
+  },
+  "hx-patch": {
+    "prefix": "hx-patch",
+    "body": [
+      "hx-patch=\"${01}\""
+    ],
+    "description": [
+      "issues a PATCH to the specified URL\n",
+      "https://htmx.org/attributes/hx-patch/"
+    ]
+  },
+  "hx-preserve": {
+    "prefix": "hx-preserve",
+    "body": [
+      "hx-preserve"
+    ],
+    "description": [
+      "specifies elements to keep unchanged between requests\n",
+      "https://htmx.org/attributes/hx-preserve/"
+    ]
+  },
+  "hx-prompt": {
+    "prefix": "hx-prompt",
+    "body": [
+      "hx-prompt=\"${01}\""
+    ],
+    "description": [
+      "shows a prompt() before submitting a request\n",
+      "https://htmx.org/attributes/hx-prompt/"
+    ]
+  },
+  "hx-put": {
+    "prefix": "hx-put",
+    "body": [
+      "hx-put=\"${01}\""
+    ],
+    "description": [
+      "issues a PUT to the specified URL\n",
+      "https://htmx.org/attributes/hx-put/"
+    ]
+  },
+  "hx-replace-url": {
+    "prefix": "hx-replace-url",
+    "body": [
+      "hx-replace-url=\"${01}\""
+    ],
+    "description": [
+      "replace the URL in the browser location bar\n",
+      "https://htmx.org/attributes/hx-replace-url/"
+    ]
+  },
+  "hx-request": {
+    "prefix": "hx-request",
+    "body": [
+      "hx-request='${01}'"
+    ],
+    "description": [
+      "configures various aspects of the request\n",
+      "https://htmx.org/attributes/hx-request/"
+    ]
+  },
+  "hx-sync": {
+    "prefix": "hx-sync",
+    "body": [
+      "hx-sync=\"${01}\""
+    ],
+    "description": [
+      "control how requests made by different elements are synchronized\n",
+      "https://htmx.org/attributes/hx-sync/"
+    ]
+  },
+  "hx-validate": {
+    "prefix": "hx-validate",
+    "body": [
+      "hx-validate"
+    ],
+    "description": [
+      "force elements to validate themselves before a request\n",
+      "https://htmx.org/attributes/hx-validate/"
+    ]
+  }
+}
