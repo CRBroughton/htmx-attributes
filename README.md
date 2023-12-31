@@ -5,6 +5,8 @@ HTMX attribute support for VSCode, enabling your HTMX workflow. HTMX attributes 
 - HTML
 - JSX
 
+<img src="screenshot.png" />
+
 ### Contributions
 
 To contribute a language, do the following:
