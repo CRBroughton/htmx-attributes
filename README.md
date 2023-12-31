@@ -6,6 +6,7 @@ HTMX attribute support for VSCode, enabling your HTMX workflow. HTMX attributes 
 - JSX
 - TSX
 - Go (via Templ)
+- PHP (Not extensively tested, but seems to work fine)
 
 <img src="screenshot.png" />
 
