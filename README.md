@@ -2,6 +2,7 @@
 
 HTMX attribute support for VSCode, enabling your HTMX workflow. HTMX attributes are currently supported in:
 
+- HTML
 - JSX
 
 ### Contributions
