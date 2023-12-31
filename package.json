@@ -42,6 +42,14 @@
         "path": "./snippets/htmx-add-html.json"
       },
       {
+        "language": "javascriptreact",
+        "path": "./snippets/htmx-core-jsx.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/htmx-add-jsx.json"
+      },
+      {
         "language": "typescriptreact",
         "path": "./snippets/htmx-core-jsx.json"
       },

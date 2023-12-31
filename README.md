@@ -4,6 +4,7 @@ HTMX attribute support for VSCode, enabling your HTMX workflow. HTMX attributes 
 
 - HTML
 - JSX
+- TSX
 - Go (via Templ)
 
 <img src="screenshot.png" />
