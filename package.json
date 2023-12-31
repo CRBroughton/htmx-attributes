@@ -14,7 +14,10 @@
   },
   "scripts": {
     "build": "vsce package -o htmx-attributes-$npm_package_version.vsix",
-    "install": "npm run build && code --install-extension htmx-attributes-$npm_package_version.vsix"
+    "install": "npm run build && code --install-extension htmx-attributes-$npm_package_version.vsix",
+    "changeset": "npx changeset",
+    "changeset:status": "npx changeset status --verbose",
+    "changeset:version": "npx changeset version"
   },
   "keywords": [
     "HTMX",
@@ -52,6 +55,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@changesets/cli": "^2.27.1",
     "hono": "^3.11.11"
   }
 }
