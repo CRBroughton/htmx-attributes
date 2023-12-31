@@ -1,4 +1,4 @@
-# htmx-snippets
+# htmx-attributes
 
 To install dependencies:
 

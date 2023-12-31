@@ -1,7 +1,7 @@
 {
-  "name": "htmx-snippets",
-  "displayName": "HTMX Snippets",
-  "description": "Snippets for VSCode, enabling your HTMX workflow",
+  "name": "htmx-attributes",
+  "displayName": "HTMX Attributes",
+  "description": "HTMX attribute support for VSCode, enabling your HTMX workflow",
   "type": "module",
   "version": "0.0.1",
   "publisher": "Craig R Broughton",
@@ -10,15 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CRBroughton/htmx-snippets.git"
+    "url": "https://github.com/CRBroughton/htmx-attributes.git"
   },
   "scripts": {
-    "build": "vsce package -o htmx-snippets-$npm_package_version.vsix",
-    "install": "npm run build && code --install-extension htmx-snippets-$npm_package_version.vsix"
+    "build": "vsce package -o htmx-attributes-$npm_package_version.vsix",
+    "install": "npm run build && code --install-extension htmx-attributes-$npm_package_version.vsix"
   },
   "keywords": [
     "HTMX",
     "Snippets",
+    "Attributes",
     "Tags"
   ],
   "categories": [
