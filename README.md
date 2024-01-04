@@ -13,9 +13,11 @@ HTMX attribute support for VSCode, enabling your HTMX workflow. HTMX attributes 
 ### Contributions
 
 To contribute a language, do the following:
-- Copy over the existing snippet examples,
-renaming the files with the language you wish to support (htmx-add-php.json as an example)
-- Make an entry in the `package.json` file for your language of choice.
+- Copy over the existing snippet examples:
+    - The 'core' snippet feature HTMX's core attributes.
+    - The 'add' snippet features HTMX's additional attributes.
+- Rename the files with the language you wish to support (htmx-add-elixir.json as an example)
+- Make an entry in the `package.json` file for your language of choice for both snippet files.
 - Make any required adjustments to the snippets for your language.
 - Create a test file in the `tests` folder; This is purely for manual
 testing before you raise a PR.
