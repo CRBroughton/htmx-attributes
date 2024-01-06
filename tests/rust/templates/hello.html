@@ -1,0 +1,19 @@
+<!-- templates/hello.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust HTMX Example</title>
+    <!-- Include HTMX from CDN -->
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body>
+
+<div id="dynamic-content">
+    Hello, World!
+    <button hx-get="/update" hx-target="#dynamic-content">{{ button_text }}</button>
+</div>
+
+</body>
+</html>
