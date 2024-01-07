@@ -12,7 +12,7 @@
   "hx-delete": {
     "prefix": "hx-delete",
     "body": [
-      "hx-delete=\"${01}\""
+      "hx-delete=\"/${1:ENDPOINT}\""
     ],
     "description": [
       "issues a DELETE to the specified URL\n",
@@ -82,7 +82,7 @@
   "hx-history": {
     "prefix": "hx-history",
     "body": [
-      "hx-history=\"false\""
+      "hx-history=\"${1:false}\""
     ],
     "description": [
       "prevent sensitive data being saved to the history cache\n",
@@ -142,7 +142,7 @@
   "hx-patch": {
     "prefix": "hx-patch",
     "body": [
-      "hx-patch=\"${01}\""
+      "hx-patch=\"/${1:ENDPOINT}\""
     ],
     "description": [
       "issues a PATCH to the specified URL\n",
@@ -172,7 +172,7 @@
   "hx-put": {
     "prefix": "hx-put",
     "body": [
-      "hx-put=\"${01}\""
+      "hx-put=\"/${1:ENDPOINT}\""
     ],
     "description": [
       "issues a PUT to the specified URL\n",

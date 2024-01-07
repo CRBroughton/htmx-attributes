@@ -2,7 +2,7 @@
   "hx-boost": {
     "prefix": "hx-boost",
     "body": [
-      "hx-boost=\"true\""
+      "hx-boost=\"${1:true}\""
     ],
     "description": [
       "add or remove progressive enhancement for links and forms\n",
@@ -12,7 +12,7 @@
   "hx-get": {
     "prefix": "hx-get",
     "body": [
-      "hx-get=\"$01\""
+      "hx-get=\"/${1:ENDPOINT}\""
     ],
     "description": [
       "Issues a `GET` to the specified URL\n",
@@ -23,7 +23,7 @@
   "hx-post": {
     "prefix": "hx-post",
     "body": [
-      "hx-post=\"$01\""
+      "hx-post=\"/${1:ENDPOINT}\""
     ],
     "description": [
       "issues a POST to the specified URL\n",
@@ -44,7 +44,7 @@
   "hx-push-url": {
     "prefix": "hx-push-url",
     "body": [
-      "hx-push-url=\"true\""
+      "hx-push-url=\"${1:true}\""
     ],
     "description": [
       "pushes the URL into the browser location bar, creating a new history entry\n",
