@@ -119,6 +119,16 @@
       "https://htmx.org/attributes/hx-indicator/"
     ]
   },
+  "hx-indicator-class": {
+    "prefix": "hx-indicator-class",
+    "body": [
+      "class=\"htmx-indicator\""
+    ],
+    "description": [
+      "Adds the htmx-indicator class for loading indicators\n",
+      "https://htmx.org/attributes/hx-indicator/"
+    ]
+  },
   "hx-params": {
     "prefix": "hx-params",
     "body": [
