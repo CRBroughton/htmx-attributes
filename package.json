@@ -64,6 +64,14 @@
       {
         "language": "templ",
         "path": "./snippets/htmx-add-templ.json"
+      },
+      {
+        "language": "astro",
+        "path": "./snippets/htmx-core-html.json"
+      },
+      {
+        "language": "astro",
+        "path": "./snippets/htmx-add-html.json"
       }
     ]
   },
