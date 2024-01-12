@@ -1,5 +1,11 @@
 # htmx-attributes
 
+## 0.4.0
+
+### Minor Changes
+
+- 4924c1c: Add support for Astro
+
 ## 0.3.0
 
 ### Minor Changes
