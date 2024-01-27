@@ -32,7 +32,7 @@
   "hx-disable-elt": {
     "prefix": "hx-disable-elt",
     "body": [
-      "hx-disable-elt=\"this\""
+      "hx-disable-elt=\"${1:this}\""
     ],
     "description": [
       "adds the disabled attribute to the specified elements while a request is in flight\n",
@@ -72,7 +72,7 @@
   "hx-headers": {
     "prefix": "hx-headers",
     "body": [
-      "hx-headers='{\"myHeader${01}\": \"My Value\"}'"
+      "hx-headers='{\"${1:myHeader}\": \"${2:My Value}\"}'"
     ],
     "description": [
       "adds to the headers that will be submitted with the request\n",
@@ -102,7 +102,7 @@
   "hx-include": {
     "prefix": "hx-include",
     "body": [
-      "hx-include=\"[name='email']\""
+      "hx-include=\"[${1:name}='${2:email}']\""
     ],
     "description": [
       "include additional data in requests\n",

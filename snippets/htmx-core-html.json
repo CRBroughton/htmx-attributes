@@ -104,7 +104,7 @@
   "hx-vals": {
     "prefix": "hx-vals",
     "body": [
-      "hx-vals='{\"myVal${01}\": \"My Value\"}'"
+      "hx-vals='{\"${1:myVal$}\": \"${2:My Value}\"}'"
     ],
     "description": [
       "adds values to the parameters to submit with the request (JSON-formatted)\n",
