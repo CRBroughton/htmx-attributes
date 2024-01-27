@@ -1,5 +1,11 @@
 # htmx-attributes
 
+## 0.5.0
+
+### Minor Changes
+
+- 600d65b: update hx-vals, hx-disable-elt, hx-headers and hx-include to support parameter selection
+
 ## 0.4.0
 
 ### Minor Changes
