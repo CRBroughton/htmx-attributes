@@ -3,6 +3,7 @@
 HTMX attribute support for VSCode, enabling your HTMX workflow. HTMX attributes are currently supported in:
 
 - HTML
+- Astro
 - JSX
 - TSX
 - Go (via [Templ](https://github.com/a-h/templ))
