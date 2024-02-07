@@ -1,5 +1,11 @@
 # htmx-attributes
 
+## 0.6.0
+
+### Minor Changes
+
+- correct hx-disable-elt attribute to hx-disabled-elt (Contribution by <a href="https://github.com/jpaddeo">https://github.com/jpaddeo</a>)
+
 ## 0.5.0
 
 ### Minor Changes
