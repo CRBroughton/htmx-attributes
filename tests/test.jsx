@@ -16,7 +16,7 @@ export default function test(test) {
             hx-confirm=""
             hx-delete=""
             hx-disable
-            hx-disable-elt="this"
+            hx-disabled-elt="this"
             hx-disinherit="*"
             hx-encoding
             hx-ext=""
