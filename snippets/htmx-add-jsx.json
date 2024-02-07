@@ -29,10 +29,10 @@
       "https://htmx.org/attributes/hx-disable/"
     ]
   },
-  "hx-disable-elt": {
-    "prefix": "hx-disable-elt",
+  "hx-disabled-elt": {
+    "prefix": "hx-disabled-elt",
     "body": [
-      "hx-disable-elt=\"${1:this}\""
+      "hx-disabled-elt=\"${1:this}\""
     ],
     "description": [
       "adds the disabled attribute to the specified elements while a request is in flight\n",
