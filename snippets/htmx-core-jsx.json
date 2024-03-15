@@ -81,6 +81,16 @@
       "https://htmx.org/attributes/hx-swap/"
     ]
   },
+  "hx-swap-oob": {
+    "prefix": "hx-swap-oob",
+    "body": [
+      "hx-swap-oob=\"${01}\""
+    ],
+    "description": [
+      "controls how content is swapped in (outerHTML, beforeend, afterend, …), out of band (somewhere other than the target)\n",
+      "https://htmx.org/attributes/hx-swap-oob/"
+    ]
+  },
   "hx-target": {
     "prefix": "hx-target",
     "body": [
