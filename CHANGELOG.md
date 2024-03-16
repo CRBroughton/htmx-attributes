@@ -1,5 +1,11 @@
 # htmx-attributes
 
+## 0.7.0
+
+### Minor Changes
+
+- hx-swap-oob-support
+
 ## 0.6.0
 
 ### Minor Changes
