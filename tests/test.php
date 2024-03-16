@@ -34,6 +34,7 @@
     hx-request=''
     hx-select=""
     hx-swap=""
+    hx-swap-oob=""
     hx-sync=""
     hx-target=""
     hx-trigger=""

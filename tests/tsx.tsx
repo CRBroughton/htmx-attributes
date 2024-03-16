@@ -9,6 +9,7 @@ export default function test(test: any) {
             hx-select="true"
             hx-select-oob="true"
             hx-swap="true"
+            hx-swap-oob="true"
             hx-target="true"
             hx-trigger="true"
             hx-vals='{"myVal": "My Value"}'
