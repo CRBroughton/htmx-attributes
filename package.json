@@ -42,6 +42,22 @@
         "path": "./snippets/htmx-add-html.json"
       },
       {
+        "language": "django-html",
+        "path": "./snippets/htmx-core-html.json"
+      },
+      {
+        "language": "django-html",
+        "path": "./snippets/htmx-add-html.json"
+      },
+      {
+        "language": "jinja-html",
+        "path": "./snippets/htmx-core-html.json"
+      },
+      {
+        "language": "jinja-html",
+        "path": "./snippets/htmx-add-html.json"
+      },
+      {
         "language": "javascriptreact",
         "path": "./snippets/htmx-core-jsx.json"
       },
