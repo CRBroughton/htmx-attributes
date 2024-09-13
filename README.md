@@ -10,6 +10,7 @@ HTMX attribute support for VSCode, enabling your HTMX workflow. HTMX attributes 
 - Rust (have tested with [Warp](https://github.com/seanmonstar/warp) + [Tokio](https://tokio.rs/) + [Askama](https://github.com/djc/askama), see tests folder)
 - Gleam (via [Matcha](https://github.com/michaeljones/matcha))
 - PHP (Not extensively tested, but seems to work fine)
+- Python via Django/Jinja2 templates (Not personally tested)
 
 <img src="screenshot.png" />
 
