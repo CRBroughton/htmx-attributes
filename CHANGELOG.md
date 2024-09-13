@@ -1,5 +1,9 @@
 # htmx-attributes
 
+## 0.8.0
+
+- Add django-html and jinja-html languages
+
 ## 0.7.0
 
 ### Minor Changes
